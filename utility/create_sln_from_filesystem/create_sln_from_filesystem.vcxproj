@@ -6,14 +6,14 @@
 //     (See accompanying file LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)    //
 
 -->
-<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <CLRSupport>true</CLRSupport>
     <ConfigurationType>Application</ConfigurationType>
     <CxxReflectIsStandalone>true</CxxReflectIsStandalone>
     <ProjectGuid>{2AB43027-E9CE-49B4-A08D-1A39C3F52E94}</ProjectGuid>
     <RootNamespace>synchronize_sln</RootNamespace>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
   </PropertyGroup>
   <Import Project="$(SolutionDir)\cxxreflect\cxxreflect.props" />
   <ItemGroup>

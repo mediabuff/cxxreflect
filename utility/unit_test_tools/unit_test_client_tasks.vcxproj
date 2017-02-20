@@ -6,14 +6,14 @@
 //     (See accompanying file LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)    //
 
 -->
-<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <CLRSupport>true</CLRSupport>
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <CxxReflectIsStandalone>true</CxxReflectIsStandalone>
     <ProjectGuid>{8C562CC2-CBA4-48DA-A94F-A5274455C530}</ProjectGuid>
     <RootNamespace>unit_test_client</RootNamespace>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
   </PropertyGroup>
   <Import Project="$(SolutionDir)\cxxreflect\cxxreflect.props" />
   <ItemGroup>

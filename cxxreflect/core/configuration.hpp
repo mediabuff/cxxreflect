@@ -28,7 +28,7 @@
 // Warning:  The unchecked algorithms rely on undocumented Visual C++ Standard Library implementation
 // details.  The implementation may change at any time.  If it changes, our unchecked algorithms may
 // break.
-#define CXXREFLECT_ENABLE_UNCHECKED_DEBUG_ALGORITHMS
+////#define CXXREFLECT_ENABLE_UNCHECKED_DEBUG_ALGORITHMS
 
 // This macro controls whether the Windows Runtime integration features are compiled.  Define this
 // macro if you are compiling CxxReflect for use in a Metro style application.  If you are building
